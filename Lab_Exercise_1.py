@@ -17,8 +17,6 @@ for i in range(2, int(num_sqrt)):
     else:
         primes.append(i)
 
-long = range(len(primes))
-
 for prime in primes:
     if num % prime == 0:
         verdict = "Not Prime"
