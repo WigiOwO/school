@@ -4,7 +4,7 @@ elem = input("Enter the elements separated by space: ")
 elem_lst = elem.split(" ")
 if size < len(elem_lst):
     print("Too much elements nigga")
-elif size < len(elem_lst):
+elif size > len(elem_lst):
     print("U kinda short on da elements bro")
 else:
     for em in elem_lst:
